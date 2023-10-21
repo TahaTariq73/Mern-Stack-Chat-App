@@ -1,0 +1,37 @@
+.searched-ones {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.searched-users-box {
+    display: flex;
+    padding: 0.7rem 0.4rem;
+    gap: 0.4rem;
+    cursor: pointer;
+}
+
+.not-last-one {
+    border-bottom: 2px solid #E0EBF3;
+}
+
+.searched-users-box h3 {
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+
+.searched-users-box p {
+    font-size: 0.8rem;
+    white-space: nowrap;
+}
+
+.searched-users-box:hover {
+    background-color: #E2EEF7;
+}
+
+.seacrh-indi {
+    margin-left: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-size: 0.9rem;
+}

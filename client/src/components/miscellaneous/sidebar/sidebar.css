@@ -1,0 +1,49 @@
+.sidebar-temp {
+    background-color: var(--primary-color);
+    height: 100vh;
+    width: 320px;
+    overflow-y: scroll;
+}
+
+.sidebar-header {
+    padding: 0.8rem;
+    background-color: #E2EEF7;
+}
+
+.sidebar-users {
+    padding: 0.8rem;
+}
+
+.my-chats-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-chats-header button {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 0.8rem 1rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.my-chats-header button:hover {
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 1024px) {
+    .sidebar-temp {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .sidebar-temp {
+        width: 100%;
+        z-index: 2;
+    }
+}
